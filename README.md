@@ -1,70 +1,57 @@
-# Frontend Web Application Developed in React
+# Environment Setup & Running the Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Frontend Setup:
 
-## Available Scripts
+For frontend files please clone the GitHub repository or download the zip file of the project Frontend from the link given below:
 
-In the project directory, you can run:
+Github Link: https://github.com/aneesansar/DevelopmentTask
 
-### `npm start`
+## Environment Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As the frontend of the application is developed in React JS so you must have Node installed in your computer or download the latest version of node from the link given below to run the project:
+Node Download link: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running the Frontend:
 
-### `npm test`
+Once you have downloaded the project and installed Node, please open the project folder in Visual Studio Code and then open terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the terminal run following command `npm install` to install the necessary packages required to run the frontend. Secondly, run the command `npm install axios` as i am using axios to fetch data from the API’s created in the backend.
 
-### `npm run build`
+After installing all the required packages please run `npm start` command to run the frontend of the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If everything is setup properly you must be able to access frontend at: [http://localhost:3000/](http://localhost:3000/) , screenshot of frontend interface is attached below.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2023-10-08 at 19.04.46.png](Environment%20Setup%20&%20Running%20the%20Project%203c0f1164723348a58c0b464b0808f895/Screenshot_2023-10-08_at_19.04.46.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Backend Setup:
 
-### `npm run eject`
+For backend files please clone the GitHub repository or download the zip file of the project Backend from the link given below:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Github Link: https://github.com/aneesansar/DevelopmentTask
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Environment Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+As the backend of the application is developed in Django so you must have python installed in your computer or download the latest version of python from the link given below to run the project:
+Python Download link: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the Frontend:
 
-## Learn More
+Once you have downloaded the project and installed python, please open the project folder in Visual Studio Code or any IDE and then open terminal.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In the terminal run following command `pip install -r requirements.txt` to install the necessary packages required to run the backend.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After installing all the required packages please run `python manage.py runserver` command to run the backend of the application. If everything is installed correctly, terminal window should start the project, screenshot attached below.
 
-### Code Splitting
+![Screenshot 2023-10-08 at 19.11.00.png](Environment%20Setup%20&%20Running%20the%20Project%203c0f1164723348a58c0b464b0808f895/Screenshot_2023-10-08_at_19.11.00.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Once everything is setup properly for frontend as well as for backend, please refresh the frontend link and you must be able to get the data on frontend as well.
 
-### Analyzing the Bundle Size
+## Project Screenshots:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot 2023-10-08 at 19.13.24.png](Environment%20Setup%20&%20Running%20the%20Project%203c0f1164723348a58c0b464b0808f895/Screenshot_2023-10-08_at_19.13.24.png)
 
-### Making a Progressive Web App
+![Screenshot 2023-10-08 at 19.14.19.png](Environment%20Setup%20&%20Running%20the%20Project%203c0f1164723348a58c0b464b0808f895/Screenshot_2023-10-08_at_19.14.19.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot 2023-10-08 at 19.15.23.png](Environment%20Setup%20&%20Running%20the%20Project%203c0f1164723348a58c0b464b0808f895/Screenshot_2023-10-08_at_19.15.23.png)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2023-10-08 at 19.16.04.png](Environment%20Setup%20&%20Running%20the%20Project%203c0f1164723348a58c0b464b0808f895/Screenshot_2023-10-08_at_19.16.04.png)
