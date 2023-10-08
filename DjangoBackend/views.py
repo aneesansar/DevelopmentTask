@@ -22,7 +22,7 @@ class CountryDataListByCountryName(generics.ListAPIView):
         title_case_country_name = country_name_lowercase.title()  # Convert to title case
         return CountryData.objects.filter(Q(CountryName__icontains=title_case_country_name))
 
-#API for POST method to accept CSV file upload from the frontend (React)
+#API for POST method to accept CSV file upload from the frontend (React Frontend)
 
 @api_view(['POST'])  # Specify the HTTP methods allowed for this view
 def upload_csv(request):
