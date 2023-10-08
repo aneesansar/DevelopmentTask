@@ -29,7 +29,7 @@ function FileUpload() {
     if (selectedFile) {
       const formData = new FormData();
       formData.append("csv_file", selectedFile);
-      //API call to make POST request to Django backend
+      //API call to make POST request to Django Backend
       try {
         await axios.post("http://localhost:8000/api/upload_csv/", formData, {
           headers: {
